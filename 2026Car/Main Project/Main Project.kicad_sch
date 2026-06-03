@@ -5470,9 +5470,22 @@
 		)
 		(uuid "fd1c5f12-2312-433c-8bc1-ee56fc9b6877")
 	)
+	(text "Electrical Wiring for BAJA Car Diagram"
+		(exclude_from_sim no)
+		(at 309.626 276.606 0)
+		(effects
+			(font
+				(size 1.651 1.651)
+				(thickness 0.3302)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "695585e9-8197-46d6-9159-219cf70191f8")
+	)
 	(text "In the real circuit, have a strong ground.\nThe circuit ground may be chassis ground.\n\n"
 		(exclude_from_sim no)
-		(at 291.846 257.302 0)
+		(at 301.244 257.556 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5523,6 +5536,19 @@
 			)
 		)
 		(uuid "f644e884-ef5c-448e-b9ea-b73a61a0a80c")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 391.414 280.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "fcb31c3a-c536-48f4-8394-99a9466c64d3")
 	)
 	(junction
 		(at 107.95 72.39)
@@ -6730,7 +6756,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 92.71) (xy 46.99 100.33)
+			(xy 46.99 92.71) (xy 46.99 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6883,6 +6909,8 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -7640,7 +7668,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 46.99 100.33 0)
+		(at 46.99 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7651,7 +7679,7 @@
 		(fields_autoplaced yes)
 		(uuid "28b31cfa-0593-4f25-b492-a6a32275be86")
 		(property "Reference" "#PWR05"
-			(at 46.99 105.41 0)
+			(at 46.99 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7662,7 +7690,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 46.863 104.14 0)
+			(at 46.863 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7672,7 +7700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 101.6 0)
+			(at 46.99 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7683,7 +7711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 101.6 0)
+			(at 46.99 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7694,7 +7722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 46.99 100.33 0)
+			(at 46.99 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9290,7 +9318,7 @@
 			)
 		)
 		(pin "2"
-			(uuid "ea89295b-dc80-4bc9-adf4-e4930e3d8a36")
+			(uuid "ea89295b-dc80-4bc9-adf4-e4930e3d8a37")
 		)
 		(pin ""
 			(uuid "c4ac65d1-a42f-41ce-9d19-d6b63db243e9")
@@ -9335,7 +9363,7 @@
 			(uuid "1bbbfb68-7fe0-42d4-8ce3-2b135f83934e")
 		)
 		(pin "1"
-			(uuid "3e7708c7-dc5a-4f7c-83cb-0f651436522b")
+			(uuid "3e7708c7-dc5a-4f7c-83cb-0f651436522c")
 		)
 		(pin "2"
 			(uuid "c5e89db4-fe84-4496-b6dd-d6f3d55d80c5")
@@ -9606,6 +9634,10 @@
 				(path "/de77ba62-8365-411d-bd6b-d64527b4d05d"
 					(reference "SW3")
 					(unit 1)
+					(variant
+						(name "#2")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -10200,6 +10232,10 @@
 				(path "/de77ba62-8365-411d-bd6b-d64527b4d05d"
 					(reference "D2")
 					(unit 1)
+					(variant
+						(name "#2")
+						(dnp yes)
+					)
 				)
 			)
 		)

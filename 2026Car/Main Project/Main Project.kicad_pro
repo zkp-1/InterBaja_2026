@@ -638,8 +638,13 @@
         "uuid": "de77ba62-8365-411d-bd6b-d64527b4d05d"
       }
     ],
-    "used_designators": "U1-4,#PWR7-9",
-    "variants": []
+    "used_designators": "",
+    "variants": [
+      {
+        "description": "Parts used in real circuit",
+        "name": "#2"
+      }
+    ]
   },
   "sheets": [
     [
