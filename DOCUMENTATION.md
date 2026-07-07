@@ -1,6 +1,3 @@
-# InterBaja_2026
-Repo of Electrical Team for the pre-existing vehicle electrical system design from scratch.
-
 # Electrical System Retrofit for Existing BAJA Vehicle
 
 ## System Overview
@@ -32,3 +29,9 @@ The current electrical framework provides a solid, modular foundation for the fo
   * RPM Gauge utilizing a Hall Effect sensor on the drivetrain/engine.
   * Fuel level sensor and dedicated dashboard gauge.
   * System Voltage monitor to track battery depletion or system voltage during operation.
+
+## Notes
+
+If this information is useful, feel free to use it. Although we wouldn't mind a little credit, since this design was made from the blood, sweat and tears of a couple of EE students haha. Referencing our team or the electrical leader (main collaborator) and linking this site should be fine.
+
+If you have any questions, my profile should have an email where you can inquire further.
