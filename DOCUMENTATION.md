@@ -1,11 +1,11 @@
 # Electrical System Retrofit for Existing BAJA Vehicle
 
 ## System Overview
-This repository contains the electrical system design and schematics for retrofitting a legacy BAJA competition car from the Interamerican University of Puerto Rico (Bayamon Campus). The vehicle originally featured no onboard electrical system. The new designed architecture provides reliable power distribution, relay-driven load switching, and essential safety measures.
+This repository contains the electrical system design and schematics for retrofitting a legacy BAJA competition car from the Interamerican University of Puerto Rico (Bayamon Campus). The vehicle originally featured no onboard electrical system. The new designed architecture provides reliable and solid power distribution alongside relay-driven load switching, and essential safety measures.
 
-Due to current hardware availability and specific application requirements, the system is split into two schematic variants:
-1. **[Final System Design.pdf] (Current Implementation):** Operates entirely on pre-charged onboard batteries[cite: 2].
-2. **[Final System Design (with Alternator).pdf] (Alternate Implementation):** Includes an integrated charging circuit (Alternator -> Filtered Rectifier -> Voltage Regulator -> Battery Terminals) which can be implemented, given that an alternator can be .
+Due to hardware availability at the time of implementation and deadlines, the system is split into two schematic variants:
+1. **[Final System Design.pdf] (Current Implementation):** Operates entirely on pre-charged onboard batteries.
+2. **[Final System Design (with Alternator).pdf] (Alternate Implementation):** Includes an integrated charging circuit (Alternator -> Filtered Rectifier -> Voltage Regulator -> Battery Terminals) which can be implemented, given that an alternator can be provided.
 
 ## Power Delivery & Management
 
